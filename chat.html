@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>チャット画面 - ABC</title>
+  <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+
+  <div class="chat-container">
+    <!-- 上部：ヘッダー -->
+    <header class="chat-header">
+      <h1 class="chat-title">ABC</h1>
+    </header>
+
+    <!-- 中央：メッセージエリア -->
+    <main class="chat-messages">
+      
+      <!-- 相手のメッセージ（左寄せ） -->
+      <div class="message-row other">
+        <div class="bubble">
+          最近ハマってるゲームとかある？
+        </div>
+      </div>
+
+      <!-- 自分のメッセージ（右寄せ） -->
+      <div class="message-row me">
+        <div class="bubble">
+          最近はオープンワールドのRPGをずっと遊んでるよ！
+        </div>
+      </div>
+
+      <!-- 相手のメッセージ（左寄せ） -->
+      <div class="message-row other">
+        <div class="bubble">
+          いいね！どんなところが面白いの？
+        </div>
+      </div>
+
+      <!-- 自分のメッセージ（右寄せ・長文） -->
+      <div class="message-row me">
+        <div class="bubble">
+          マップがめちゃくちゃ広くて、メインストーリーを進めずに探索しているだけでも新しいダンジョンや強い武器が見つかるから、気づいたら何時間も経ってるんだよね。グラフィックもすごく綺麗！
+        </div>
+      </div>
+
+      <!-- 相手のメッセージ（左寄せ） -->
+      <div class="message-row other">
+        <div class="bubble">
+          それは時間溶けるやつだ（笑）今度タイトル教えて！
+        </div>
+      </div>
+
+      <!-- 自分のメッセージ（右寄せ） -->
+      <div class="message-row me">
+        <div class="bubble">
+          了解！今度会ったときに画面見せるね〜
+        </div>
+      </div>
+
+    </main>
+
+    <!-- 下部：入力エリア -->
+    <footer class="chat-footer">
+      <input type="text" class="message-input" placeholder="メッセージを入力">
+      <button type="button" class="send-button">送信</button>
+    </footer>
+  </div>
+
+</body>
+</html>
